@@ -161,21 +161,21 @@ async def log(_, message):
 help_string = f'''
 <b>NOTE: Click on any CMD to see more detalis.</b>
 
-/{BotCommands.MirrorCommand[0]} or /{BotCommands.MirrorCommand[1]}: Upload to Cloud Drive.
-/{BotCommands.ZipMirrorCommand[0]} or /{BotCommands.ZipMirrorCommand[1]}: Upload as zip.
-/{BotCommands.UnzipMirrorCommand[0]} or /{BotCommands.UnzipMirrorCommand[1]}: Unzip before upload.
+/{BotCommands.Mirror1Command[0]} or /{BotCommands.MirrorCommand[1]}: Upload to Cloud Drive.
+/{BotCommands.ZipMirror1Command[0]} or /{BotCommands.ZipMirrorCommand[1]}: Upload as zip.
+/{BotCommands.UnzipMirror1Command[0]} or /{BotCommands.UnzipMirrorCommand[1]}: Unzip before upload.
 
 <b>Use qBit commands for torrents only:</b>
-/{BotCommands.QbMirrorCommand[0]} or /{BotCommands.QbMirrorCommand[1]}: Download using qBittorrent and Upload to Cloud Drive.
-/{BotCommands.QbZipMirrorCommand[0]} or /{BotCommands.QbZipMirrorCommand[1]}: Download using qBittorrent and upload as zip.
-/{BotCommands.QbUnzipMirrorCommand[0]} or /{BotCommands.QbUnzipMirrorCommand[1]}: Download using qBittorrent and unzip before upload.
+/{BotCommands.QbMirror1Command[0]} or /{BotCommands.QbMirrorCommand[1]}: Download using qBittorrent and Upload to Cloud Drive.
+/{BotCommands.QbZipMirror1Command[0]} or /{BotCommands.QbZipMirrorCommand[1]}: Download using qBittorrent and upload as zip.
+/{BotCommands.QbUnzipMirror1Command[0]} or /{BotCommands.QbUnzipMirrorCommand[1]}: Download using qBittorrent and unzip before upload.
 
 /{BotCommands.BtSelectCommand}: Select files from torrents by gid or reply.
 /{BotCommands.CategorySelect}: Change upload category for Google Drive.
 
 <b>Use Yt-Dlp commands for YouTube or any videos:</b>
-/{BotCommands.YtdlCommand[0]} or /{BotCommands.YtdlCommand[1]}: Mirror yt-dlp supported link.
-/{BotCommands.YtdlZipCommand[0]} or /{BotCommands.YtdlZipCommand[1]}: Mirror yt-dlp supported link as zip.
+/{BotCommands.Ytdl1Command[0]} or /{BotCommands.YtdlCommand[1]}: Mirror yt-dlp supported link.
+/{BotCommands.YtdlZip1Command[0]} or /{BotCommands.YtdlZipCommand[1]}: Mirror yt-dlp supported link as zip.
 
 <b>Use Leech commands for upload to Telegram:</b>
 /{BotCommands.LeechCommand[0]} or /{BotCommands.LeechCommand[1]}: Upload to Telegram.
@@ -190,7 +190,7 @@ help_string = f'''
 /leech{BotCommands.DeleteCommand} [telegram_link]: Delete replies from telegram (Only Owner & Sudo).
 
 <b>G-Drive commands:</b>
-/{BotCommands.CloneCommand}: Copy file/folder to Cloud Drive.
+/{BotCommands.Clone1Command}: Copy file/folder to Cloud Drive.
 /{BotCommands.CountCommand} [drive_url]: Count file/folder of Google Drive.
 /{BotCommands.DeleteCommand} [drive_url]: Delete file/folder from Google Drive (Only Owner & Sudo).
 
